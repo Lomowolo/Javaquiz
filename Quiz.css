@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.QuizBox p{
+    font-size: 20px;
+    border-bottom: 1px solid #333;
+}
+
+
+body{
+    background-color: royalblue;
+}
+
+.QuizBox{
+    background-color: #fff;
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+    padding: 20px;
+    border-color: silver;
+    border-style: solid;
+    margin: 100px auto 0;
+}
+
+/*.QuizBox h1{
+   
+} */
+
+.btn{
+    display:block;
+    border: 0.1rem solid #222;
+    background-color: inherit;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: left;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 20%;
+}
+
+.btn:hover:not([disabled]){
+    transition: all 0.5s ease;
+    background-color: darkgray;
+    color: #fff;
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#next-btn{
+    display: block;
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+    width: 50%;
+    border: none;
+    padding: 10px;
+    margin: 15px auto 0;
+}
+
+#next-btn:hover{
+    transition: all 0.5s ease;
+    background-color:salmon;
+    
+}
+
+.correct{
+    background-color: #9aeabc;
+}
+
+.incorrect{
+    background-color: #ff9393;
+}
+
+
+/*.Quizquestions h2{
+
+}*/
